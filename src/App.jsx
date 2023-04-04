@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
+import Pattern1 from './Pattern1';
 
 const App = () => (
   <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit
-        <code>src/App.js</code>
-        and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          <nav className="navbar bg-body-tertiary">
+            <div className="container-fluid">
+              <span className="navbar-brand">Navbar</span>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <Pattern1 />
+    </div>
   </div>
 );
 
