@@ -1,0 +1,28 @@
+// Bootstrap
+
+@import 'bootstrap/dist/css/bootstrap.css';
+
+@import 'node_modules/bootstrap/scss/functions';
+// $primary: #f16e00;
+// $btn-disabled-opacity: 0.4;
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// app
+
+.mb-cell {
+  margin-bottom: 1.5rem;
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 17px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 20px;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    margin-bottom: 24px;
+  }
+}

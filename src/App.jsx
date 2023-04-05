@@ -1,22 +1,18 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
+import './App.scss';
 
-import Pattern1 from './Pattern1';
+import Pattern from './Pattern2';
 
 const App = () => (
   <div className="App">
     <div className="container">
-      <div className="row">
-        <div className="col">
-          <nav className="navbar bg-body-tertiary">
-            <div className="container-fluid">
-              <span className="navbar-brand">Navbar</span>
-            </div>
-          </nav>
+      <nav className="navbar bg-body-tertiary qwe">
+        <div className="container-fluid">
+          <span className="navbar-brand">Navbar</span>
         </div>
-      </div>
+      </nav>
 
-      <Pattern1 />
+      <Pattern />
     </div>
   </div>
 );
