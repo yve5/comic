@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 
-import Pattern from './Pattern2';
+import Pattern from './Pattern';
 
 const App = () => (
   <div className="App">

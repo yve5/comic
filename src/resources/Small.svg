@@ -9,7 +9,7 @@
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
    sodipodi:docname="Small.svg"
-   inkscape:export-filename="../890a4399/Small.png"
+   inkscape:export-filename="../54927b7e/Small1.png"
    inkscape:export-xdpi="192"
    inkscape:export-ydpi="192"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -29,7 +29,7 @@
      showgrid="false"
      inkscape:zoom="1.4142136"
      inkscape:cx="399.51532"
-     inkscape:cy="210.36426"
+     inkscape:cy="208.95005"
      inkscape:window-width="1869"
      inkscape:window-height="1025"
      inkscape:window-x="51"
@@ -51,15 +51,15 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="36.582779"
+       x="21.303091"
        y="71.408562"
        id="text247"
-       inkscape:label="Figure"
+       inkscape:label="ID"
        sodipodi:insensitive="true"><tspan
          sodipodi:role="line"
          id="tspan245"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#990099;fill-opacity:1;stroke-width:0.264583"
-         x="36.582779"
-         y="71.408562">6</tspan></text>
+         x="21.303091"
+         y="71.408562">S1</tspan></text>
   </g>
 </svg>
