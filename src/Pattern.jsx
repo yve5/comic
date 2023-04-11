@@ -5,32 +5,21 @@ import Small2 from './resources/Small2.png';
 import Small3 from './resources/Small3.png';
 import Small4 from './resources/Small4.png';
 
-const Pattern = () => (
-  <div className="row">
-    <div className="offset-sm-3 col-sm-6 offset-lg-0 col-lg-4 mb-cell">
-      <img alt="Large" className="img-fluid" src={Large1} />
-    </div>
+const stripExample = [
+  { id: 1, alt: 'Large 1', src: Large1 },
+  { id: 2, alt: 'Small 1', src: Small1 },
+  { id: 3, alt: 'Small 2', src: Small2 },
+  { id: 4, alt: 'Small 3', src: Small3 },
+  { id: 5, alt: 'Small 4', src: Small4 },
+];
 
-    <div className="offset-sm-3 col-sm-6 offset-lg-0 col-lg-8">
-      <div className="row">
-        <div className="col-lg-6 mb-cell">
-          <img alt="Small" className="img-fluid" src={Small1} />
-        </div>
-
-        <div className="col-lg-6 mb-cell">
-          <img alt="Small" className="img-fluid" src={Small2} />
-        </div>
-
-        <div className="col-lg-6 mb-cell">
-          <img alt="Small" className="img-fluid" src={Small3} />
-        </div>
-
-        <div className="col-lg-6 mb-cell">
-          <img alt="Small" className="img-fluid" src={Small4} />
-        </div>
+const Pattern = () =>
+  stripExample.map(({ id, alt, src }) => (
+    <div className="row" key={id}>
+      <div className="offset-sm-3 col-sm-6 offset-lg-4 col-lg-4 mb-3 mb-lg-4">
+        <img alt={alt} className="img-fluid" src={src} />
       </div>
     </div>
-  </div>
-);
+  ));
 
 export default Pattern;
